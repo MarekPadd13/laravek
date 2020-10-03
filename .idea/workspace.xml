@@ -1,23 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cf7d036-4dcb-42c4-a322-e48cdcebf291" name="Default Changelist" comment="" />
+    <list default="true" id="3cf7d036-4dcb-42c4-a322-e48cdcebf291" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/AjaxComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/LaravelComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/PostsComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" xdebug_show_addresses="true" hide_empty_superglobals="false" max_simultaneous_connections="1" />
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="693fb562-4275-49f6-9f29-6dda4e0ea0f3" name="Laravel" port="8000" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
@@ -127,13 +156,29 @@
       <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="127.0.0.1:8000" />
   <component name="ProjectId" id="1i6yozDvAvRTaf39Q6ZOvdbKJPW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Constants" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/components" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\blog\resources\js\components" />
+      <recent name="D:\OPs\OpenServer\domains\blog\resources\views\layouts\page" />
+      <recent name="D:\OPs\OpenServer\domains\blog\resources\views" />
+      <recent name="D:\OPs\OpenServer\domains\blog\resources\views\tasks" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,11 +192,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Web Page.Laravel">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="Laravelv" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" host="127.0.0.1" port="8000" router_script="$PROJECT_DIR$/server.php">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" router_script="$PROJECT_DIR$/server.php" use_router_script="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Laravel" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Laravel">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Built-in Web Server.Laravelv" />
+      <item itemvalue="PHP Web Page.Laravel" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -164,6 +223,12 @@
       <option name="presentableId" value="Default" />
       <updated>1601242514560</updated>
       <workItem from="1601242515870" duration="1956000" />
+      <workItem from="1601279383615" duration="16654000" />
+      <workItem from="1601328325549" duration="2937000" />
+      <workItem from="1601333739393" duration="553000" />
+      <workItem from="1601334321804" duration="15022000" />
+      <workItem from="1601382954323" duration="744000" />
+      <workItem from="1601383753386" duration="16619000" />
     </task>
     <servers />
   </component>
@@ -175,10 +240,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/app/Models/Post.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/Controller.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/blog$index_php.dat" NAME="index.php Coverage Results" MODIFIED="1601389144283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/blog$PostController_php.dat" NAME="PostController.php Coverage Results" MODIFIED="1601389498512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/blog@phpunit_xml.xml" NAME="phpunit.xml Coverage Results" MODIFIED="1601365230722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

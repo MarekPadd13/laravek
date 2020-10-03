@@ -125,8 +125,12 @@
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         Build v{{ Illuminate\Foundation\Application::VERSION }}
                     </div>
+                    <div id="app">
+                    <laravel-component></laravel-component>
+                    </div>
                 </div>
             </div>
         </div>
     </body>
+    <script src="{{ @asset('js/app.js') }}" ></script>
 </html>
