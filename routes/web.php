@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -15,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware'=> ['auth']], function () {
+    return Route::get('/',[DashboardController::class,'dashboard'])->name('admin.dashboard');
+} );
 
 Route::get('/', function () {
     return view('welcome');
@@ -40,13 +45,9 @@ Route::get('/tasks/{task}', function ($id) {
     return view("tasks.show", compact('task'));
 });
 
-Route::get('/posts', PostController::class.'@index');
-Route::get('/posts/json', PostController::class."@json");
-Route::get('/posts/{post}', PostController::class."@post");
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/posts', [PostController::class,'index']);
+Route::get('/posts/json', [PostController::class,"json"]);
+Route::get('/posts/{post}', [PostController::class,"post"]);
 
 Auth::routes();
 
