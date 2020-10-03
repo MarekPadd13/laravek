@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cf7d036-4dcb-42c4-a322-e48cdcebf291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/admin_app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/partials/categories.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/partials/form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/admin_app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/admin_app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,19 +156,22 @@
     <property name="Constants" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/layouts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/categories" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\blog\app\Http\Controllers\Admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\blog\resources\views\admin\categories" />
+      <recent name="D:\OpenServer\domains\blog\resources\views\admin\categories\partials" />
+      <recent name="D:\OpenServer\domains\blog\resources\views\admin\components" />
       <recent name="D:\OpenServer\domains\blog\resources\views\admin\layouts" />
       <recent name="D:\OpenServer\domains\blog\resources\js\components" />
-      <recent name="D:\OPs\OpenServer\domains\blog\resources\views\layouts\page" />
-      <recent name="D:\OPs\OpenServer\domains\blog\resources\views" />
-      <recent name="D:\OPs\OpenServer\domains\blog\resources\views\tasks" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,7 +223,7 @@
       <workItem from="1601334321804" duration="15022000" />
       <workItem from="1601382954323" duration="744000" />
       <workItem from="1601383753386" duration="16619000" />
-      <workItem from="1601725143256" duration="7551000" />
+      <workItem from="1601725143256" duration="28883000" />
     </task>
     <servers />
   </component>
@@ -256,6 +260,11 @@
           <url>file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php</url>
           <line>25</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/database/migrations/2020_10_03_141532_create_categories_table.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

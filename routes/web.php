@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Auth;
@@ -17,9 +18,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware'=> ['auth']], function () {
-    return Route::get('/',[DashboardController::class,'dashboard'])->name('admin.dashboard');
-} );
+Route::group(['prefix' => 'admin','middleware'=> ['auth']], function () {
+    Route::get('/',[DashboardController::class,'dashboard'])->name('admin.dashboard');
+    Route::resource('/categories', CategoryController::class, ['as'=>'admin']);
+});
 
 Route::get('/', function () {
     return view('welcome');

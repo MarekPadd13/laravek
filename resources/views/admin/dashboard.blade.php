@@ -35,7 +35,7 @@
     <div class="row">
         <div class="col-md-6">
             <div class="list-group">
-                <a href="#" class="btn btn-block btn-success"> Создать категорию </a>
+                <a href="{{route('admin.categories.create')}}" class="btn btn-block btn-success"> Создать категорию </a>
                 <a href="#" class="list-group-item">
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Первая категория</h5>
