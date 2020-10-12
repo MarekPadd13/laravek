@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('all-articles',[\App\Http\Controllers\BlogController::class,'all'])->name('api.articles');

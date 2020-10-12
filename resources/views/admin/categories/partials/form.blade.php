@@ -9,10 +9,10 @@
     @endif
 </select>
 <label for="">Наименование</label>
-<input class="form-control" type="text" name="title"  placeholder="Заголовок" value="@if(isset($category->title)) {{$category->title}}  @endif" required>
+<input class="form-control" type="text" name="title" placeholder="Заголовок" value=" {{$category->title ?? ""}}" required>
 
 <label for="">Slug</label>
-<input class="form-control" type="text" name="slug"  placeholder="Автоматическая генерация" value="@if(isset($category->slug)) {{$category->slug}} @endif" readonly>
+<input class="form-control" type="text" name="slug"  placeholder="Автоматическая генерация" value="{{$category->slug ?? ""}} " readonly>
 
 <label for="">Родительская категория</label>
 <select name="parent_id" class="form-control">

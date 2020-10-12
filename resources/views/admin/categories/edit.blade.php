@@ -7,6 +7,7 @@
             @slot('active') Категории @endslot
     @endcomponent
     <hr />
+        @include('admin.categories.partials.error')
     <form method="POST"  action="{{route('admin.categories.update', $category)}}">
         <input type="hidden" name="_method" value="put">
         @csrf

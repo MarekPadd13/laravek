@@ -7,6 +7,7 @@
             @slot('active') Категории @endslot
     @endcomponent
     <hr />
+        @include('admin.categories.partials.error')
     <form method="POST"  action="{{route('admin.categories.store')}}">
         @csrf
         @include('admin.categories.partials.form')

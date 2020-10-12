@@ -3,11 +3,8 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-
 require('./bootstrap');
-
 window.Vue = require('vue');
-
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -23,6 +20,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('laravel-component', require('./components/LaravelComponent.vue').default);
 Vue.component('posts-component', require('./components/PostsComponent.vue').default);
 Vue.component('ajax-component', require('./components/AjaxComponent.vue').default);
+Vue.component('ckeditor-component', require('./components/plagins/CkeditorComponent').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

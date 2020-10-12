@@ -5,6 +5,7 @@ namespace App\Models;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Str;
 
 /**
@@ -25,4 +26,13 @@ class Category extends Model
     public function children(){
         return $this->hasMany(self::class, 'parent_id');
     }
+
+    public function articles() {
+        return $this->morphedByMany(Article::class, 'record', 'category_tables');
+    }
+
+    public function scopeLastCategories($query, $count) {
+        return $query->orderBy('created_at', 'desc')->take($count)->get();
+    }
+
 }
